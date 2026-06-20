@@ -52,3 +52,4 @@ Student contributor names can be added below as the projects are completed.
 | Abhiram Kodali  -| G40 AI/ML Batch |  Olympic Performance Analytics |
 | Kavita Kanchan | G40 AL/ML Batch | Olympic Medal Intelligence Platform |
 | S.Gayathri | G40 AI/ML Batch | Quality of Life Intelligence Platform |
+| Sireesha | G40 AI/ML | Cliamte Anomaly Detection |
