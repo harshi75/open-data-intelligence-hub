@@ -2,8 +2,8 @@ name: Keep Streamlit App Warm
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs every 6 hours
-  workflow_dispatch: # Allows manual triggering
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   ping:
@@ -11,4 +11,31 @@ jobs:
     steps:
       - name: Ping App
         run: |
-          curl -I https://github.com/manoj-1229
+          if [ -z "$APP_URL" ]; then
+            echo "STREAMLIT_APP_URL secret is missing."
+            exit 1
+          fi
+
+          node <<'EOF'
+          const { chromium } = require("playwright");
+
+          (async () => {
+            const url = process.env.APP_URL;
+            console.log(`Opening ${url}`);
+
+            const browser = await chromium.launch({ headless: true });
+            const page = await browser.newPage();
+
+            await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
+
+            await page.waitForTimeout(10000);
+
+            const title = await page.title();
+            console.log("Page title:", title);
+
+            await browser.close();
+            console.log("Streamlit app opened successfully.");
+          })();
+          EOF
+
+
