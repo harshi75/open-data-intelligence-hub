@@ -1,4 +1,4 @@
-Great! Here's the complete formatting style you can use for all 20 questions. It will look clean in a **Google Colab Markdown (Text) cell**.
+
 
 ### 1. What is regression in machine learning, and when is it used?
 
