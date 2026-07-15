@@ -1,0 +1,19 @@
+## Customer Churn Analysis
+
+This project focuses on analyzing customer data to identify patterns and factors that contribute to customer churn. Using data analysis techniques, the project explores customer demographics, subscription details, and service usage to uncover insights that can help businesses improve customer retention.
+
+The analysis includes data cleaning, preprocessing, exploratory data analysis (EDA), and visualization to better understand customer behavior. The findings can help organizations make data-driven decisions to reduce churn and enhance customer satisfaction.
+
+### Key Objectives
+- Clean and preprocess the customer dataset.
+- Perform exploratory data analysis (EDA).
+- Identify trends and factors influencing customer churn.
+- Visualize insights using charts and graphs.
+- Provide recommendations to improve customer retention.
+
+### Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook

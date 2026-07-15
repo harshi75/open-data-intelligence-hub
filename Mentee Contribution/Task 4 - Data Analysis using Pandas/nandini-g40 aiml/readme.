@@ -1,0 +1,20 @@
+## Data Analysis Using Pandas
+
+This project demonstrates how to perform data analysis using the Pandas library in Python. It involves importing, cleaning, transforming, and analyzing datasets to extract meaningful insights. The project showcases essential data analysis techniques such as handling missing values, filtering data, grouping, sorting, and generating summary statistics.
+
+The analysis is supported by visualizations to better understand trends, patterns, and relationships within the dataset. This project highlights the use of Pandas as a powerful tool for efficient data manipulation and exploratory data analysis (EDA).
+
+### Key Features
+- Data loading and preprocessing
+- Data cleaning and handling missing values
+- Exploratory Data Analysis (EDA)
+- Data filtering, grouping, and aggregation
+- Statistical summary and insights
+- Data visualization using Matplotlib
+
+### Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook

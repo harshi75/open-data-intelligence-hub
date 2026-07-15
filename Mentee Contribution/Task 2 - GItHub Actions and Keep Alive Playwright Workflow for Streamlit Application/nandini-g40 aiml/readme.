@@ -1,0 +1,5 @@
+## Keep App Alive
+
+This project demonstrates a simple approach to keeping a deployed Streamlit application active by sending periodic requests to the app. Many free hosting platforms may put applications to sleep after a period of inactivity, which can increase the loading time for users. By automating regular health-check requests, the app remains responsive and is less likely to become inactive.
+
+The project is lightweight, easy to configure, and suitable for beginners who want to learn about Python automation, HTTP requests, and maintaining the availability of deployed web applications.
